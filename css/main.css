@@ -1,0 +1,78 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+  Font-size: 1.5626rem;
+  line-height: 0.875rem;
+}
+
+h2 {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h3 {
+  text-align: center;
+  width: 14.0625rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.lilevan {
+	display: block;
+	margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.type {
+	width: 14.0625rem;
+	border:2px solid #000;
+	display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.site {
+	width: 50%;
+  background-color: #000;
+  text-align: center;
+  padding: .3rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+	width: 25%;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+}
