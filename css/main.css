@@ -23,7 +23,7 @@ body {
 h1 {
 	text-align: center;
 	font-weight: bold;
-  Font-size: 1.5626rem;
+  font-size: 1.5626rem;
   line-height: 0.875rem;
 }
 
@@ -107,6 +107,13 @@ a {
   cursor: pointer;
 }
 
+.toptext {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+
 
 
 
@@ -133,7 +140,6 @@ a {
   cursor: pointer;
   }
 
-
   .toptext {
   display: inline-block;
   margin-top: 10rem;
@@ -154,8 +160,6 @@ a {
   cursor: pointer;
   }
 
-  }
-
   .imgs {
     clear: both;
   }
@@ -163,7 +167,7 @@ a {
   h1 {
   text-align: left;
   font-weight: bold;
-  Font-size: 220%;
+  font-size: 220%;
   line-height: 0.875rem;
   }
 
@@ -191,7 +195,7 @@ a {
   }
 
   h1 {
-  Font-size: 320%;
+  font-size: 320%;
   }
 
   h3 {
