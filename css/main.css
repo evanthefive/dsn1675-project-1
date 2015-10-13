@@ -61,7 +61,7 @@ a {
 	margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
-  width: 16%;
+  width: 7rem;
   transition: width 0.5s ease;
 }
 .lilevan:hover {
@@ -111,7 +111,7 @@ a {
 
 
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 46.875em) {
     .medevan {
       display: block;
     margin-top: 2rem;
@@ -131,20 +131,29 @@ a {
   .type:hover {
   width: 30.0625rem;
   cursor: pointer;
-}
+  }
 
 
   .toptext {
   display: inline-block;
-    margin-top: 10rem;
-    margin-bottom: 3rem;
-    width: 58%;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  width: 58%;
   }
 
+
+
   .mainimg {
-    display: inline-block;
-    float: left;
-    width: 32%;
+  display: inline-block;
+  float: left;
+  width: 32%;
+  transition: width 0.5s ease;
+  }
+  .mainimg:hover {
+  width: 37%;
+  cursor: pointer;
+  }
+
   }
 
   .imgs {
@@ -169,11 +178,16 @@ a {
 
 
 
-@media only screen and (min-width: 56.25em) {
+@media only screen and (min-width: 59.375em) {
   .lrgevan {
-    display: block;
-    max-width: 81%;
-    margin-top: 2.25rem;
+  display: block;
+  width: 97%;
+  margin-top: 2.25rem;
+  transition: width 0.5s ease;
+  }
+  .lrgevan:hover {
+  width: 105%;
+  cursor: pointer;
   }
 
   h1 {
@@ -203,7 +217,12 @@ a {
     margin-right: 3.8rem;
     margin-bottom: 7rem;
     width: 47%;
-
+    transition: width 0.5s ease;
+  }
+  .toptext:hover {
+  cursor: pointer;
+  width: 45%;
+  }
 }
 
 
