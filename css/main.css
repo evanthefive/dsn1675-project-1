@@ -49,7 +49,9 @@ a {
 .medevan {
   display: none;
 }
-
+.lrgevan {
+  display: none;
+}
 .lilevan {
 	display: block;
 	margin-top: 4rem;
@@ -102,5 +104,72 @@ a {
   width: 27.0625rem;
   }
 
+  .toptext {
+  display: inline-block;
+  float: right;
+  display: inline-block;
+  margin-top: 11rem;
+  margin-right: 6rem;
+  }
+
+  .mainimg {
+    display: inline-block;
+    float: left;
+  }
+
+  .imgs {
+    clear: both;
+  }
+
+  h1 {
+  text-align: left;
+  font-weight: bold;
+  Font-size: 220%;
+  line-height: 0.875rem;
+  }
+
+  h3 {
+  text-align: left;
+  width: 20.0625rem;
+  font-size: 120%;
+  width: 27.0625rem;
+  }
 }
 
+
+
+
+@media only screen and (min-width: 56.25em) {
+  .lrgevan {
+    display: block;
+    max-width: 81%;
+    margin-top: 2.25rem;
+  }
+
+  h1 {
+  Font-size: 320%;
+  }
+
+  h3 {
+  font-size: 135%;
+  }
+
+  .medevan {
+    display: none;
+  }
+
+  .mainimg {
+    display: inline-block;
+    float: left;
+    width: 46%;
+  }
+
+  .toptext {
+    display: inline-block;
+    float: right;
+    display: inline-block;
+    margin-top: 7rem;
+    margin-right: 3.8rem;
+    margin-bottom: 7rem;
+
+}
