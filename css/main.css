@@ -91,11 +91,14 @@ a {
 
 @media only screen and (min-width: 48em) {
     .medevan {
-    display: block;
-    margin-top: 4rem;
-    margin-left: -11rem;
+      display: block;
+    margin-top: 2rem;
+    margin-left: -12rem;
+    width: 139%;
   }
-
+  .lrgevan {
+  display: none;
+  }
     .lilevan {
     display: none;
   }
@@ -106,10 +109,8 @@ a {
 
   .toptext {
   display: inline-block;
-  float: right;
-  display: inline-block;
-  margin-top: 11rem;
-  margin-right: 6rem;
+    margin-top: 13rem;
+    width: 58%;
   }
 
   .mainimg {
@@ -130,9 +131,9 @@ a {
 
   h3 {
   text-align: left;
-  width: 20.0625rem;
   font-size: 120%;
   width: 27.0625rem;
+  margin: 0;
   }
 }
 
@@ -152,6 +153,7 @@ a {
 
   h3 {
   font-size: 135%;
+  margin: 0;
   }
 
   .medevan {
@@ -171,5 +173,14 @@ a {
     margin-top: 7rem;
     margin-right: 3.8rem;
     margin-bottom: 7rem;
+    width: 47%;
 
+}
+
+
+
+@media print {
+  .type {
+    display: none
+  }
 }
