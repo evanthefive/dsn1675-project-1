@@ -14,10 +14,6 @@ body {
 	width: 100%;
 	margin: 0px;
   margin-bottom: 4rem;
-    transition:all .2s linear;
-    -o-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -webkit-transition:all .2s linear;
 }
 
 h1 {
@@ -78,7 +74,6 @@ a {
   box-shadow: 0 6px 10px grey;
 }
 
-
 .site {
 	width: 50%;
   background-color: #000;
@@ -118,6 +113,9 @@ a {
   display: none;
 }
 
+.printtxt {
+  display: none;
+}
 
 
 
@@ -247,7 +245,30 @@ a {
 
 
 @media print {
-  .type {
-    display: none
+  .html {
+  background: none
   }
+  .print {
+  display: none
+  }
+  .site {
+  display: none;
+  }
+  .toptext {
+  display: block;
+  margin-top: 10rem;
+  }
+  .logo {
+  width: 10%;
+  }
+
+  .lilevan {
+  display: none;
+  }
+  .printtxt {
+  display: block;
+  text-align: center;
+  }
+
+
 }
