@@ -137,12 +137,8 @@ a {
   .arrow {
     display: block;
     padding-top: 1rem;
+    padding-left: 1rem;
     width: 4%;
-    transition: width 1s ease;
-  }
-  .arrow:hover {
-  width: 7%;
-  cursor: pointer;
   }
 
 
