@@ -58,11 +58,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 7rem;
-  transition: width 1s ease;
-}
-.lilevan:hover {
-  cursor: pointer;
-  width: 25%;
 }
 
 .type {
@@ -233,11 +228,6 @@ a {
     margin-right: 3.8rem;
     margin-bottom: 7rem;
     width: 47%;
-    transition: width 1s ease;
-  }
-  .toptext:hover {
-  cursor: pointer;
-  width: 45%;
   }
 }
 
