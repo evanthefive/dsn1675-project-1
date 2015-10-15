@@ -82,8 +82,9 @@ a {
 .site {
 	width: 50%;
   background-color: #000;
+  border-radius: 20px;
   text-align: center;
-  padding: .3rem;
+  padding: .6rem;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -113,6 +114,9 @@ a {
     margin-right: auto;
 }
 
+.arrow {
+  display: none;
+}
 
 
 
@@ -147,6 +151,16 @@ a {
   width: 58%;
   }
 
+  .arrow {
+    display: block;
+    padding-top: 1rem;
+    width: 4%;
+    transition: width 1s ease;
+  }
+  .arrow:hover {
+  width: 7%;
+  cursor: pointer;
+  }
 
 
   .mainimg {
