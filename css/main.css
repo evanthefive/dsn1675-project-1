@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1;}
 
 html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	background-color: #FAF5EE;
 }
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-weight: lighter;
+  font-weight: normal;
   text-align: center;
   margin-bottom: 0px;
 }
