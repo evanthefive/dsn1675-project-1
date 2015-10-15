@@ -270,8 +270,8 @@ a {
   }
 
   .printbrd {
-  padding: 100px 100px;
   border: 2px dashed #000;
+  margin-left: 100px;
   }
 
 }
