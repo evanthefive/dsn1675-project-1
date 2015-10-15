@@ -244,7 +244,7 @@ a {
 
 
 @media print {
-  .html {
+  html {
   background: none
   }
   .print {
@@ -269,5 +269,9 @@ a {
   text-align: center;
   }
 
+  .printbrd {
+  padding: 100px 100px;
+  border: 2px dashed #000;
+  }
 
 }
