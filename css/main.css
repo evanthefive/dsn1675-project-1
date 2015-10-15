@@ -89,13 +89,9 @@ a {
 }
 
 .type {
-  transition: width .25s ease;
   width: 14.0625rem;
 }
-.type:hover {
-  width: 16.0625rem;
-  cursor: pointer;
-}
+
 
 .toptext {
     display: block;
@@ -130,10 +126,6 @@ a {
 
   .type {
   width: 27.0625rem;
-  }
-  .type:hover {
-  width: 30.0625rem;
-  cursor: pointer;
   }
 
   .toptext {
