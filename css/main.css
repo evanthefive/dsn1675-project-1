@@ -7,6 +7,9 @@
 html {
 	font-family: 'Roboto', sans-serif;
 }
+*, *::before, *::after{
+  box-sizing: inherit;
+}
 
 body {
 	width: 100%;
